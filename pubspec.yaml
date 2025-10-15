@@ -1,0 +1,52 @@
+name: oltinwash
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.1
+  url_launcher: ^6.3.0
+  image_picker: ^1.1.2
+  universal_html: ^2.2.4
+  universal_io: ^2.2.2
+  intl: ^0.20.2
+  timezone: ^0.9.4
+  dio: ^5.4.3+1
+  dropdown_search: ^5.0.6
+  local_auth: ^2.2.0
+  flutter_local_notifications: ^17.2.1+2
+  shared_preferences: ^2.3.3
+  workmanager: ^0.9.0+3
+  fluttertoast: ^8.2.6
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/icon.png
+    - assets/images/icon.png
+    - assets/images/placeholder.png
