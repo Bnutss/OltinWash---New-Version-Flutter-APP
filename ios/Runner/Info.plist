@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Oltinwash</string>
+	<string>OltinWash</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>oltinwash</string>
+	<string>OltinWash</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,5 +45,13 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Разрешения -->
+	<key>NSCameraUsageDescription</key>
+	<string>OltinWash требует доступ к камере для съемки фотографий.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>OltinWash требует доступ к вашей фотогалерее для выбора изображений.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>OltinWash использует Face ID для безопасной аутентификации пользователя.</string>
 </dict>
 </plist>
